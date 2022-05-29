@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/mariadb
+FROM lscr.io/linuxserver/mariadb:10.5.16
 
 # Add Healthcheck
 HEALTHCHECK --interval=30s --timeout=3s \
